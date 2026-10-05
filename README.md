@@ -4,6 +4,8 @@ This repository contains a preprocessing script that converts the raw **RIGA** (
 
 The raw RIGA data does not ship with ready-made masks. Instead, each expert drew their outline directly onto a copy of the fundus image. `preprocess_RIGA.py` recovers those drawn outlines, turns them into filled regions, separates disc from cup, and saves one mask per image and expert.
 
+You can directly download the preprocessed dataset from Zenodo [here](https://doi.org/10.5281/zenodo.23158636).
+
 ---
 
 ## Contents
@@ -61,6 +63,7 @@ The `MagrabiaMale` folder uses a capitalised prefix (`Image{N}prime`, `Image{N}-
 ---
 
 ## Usage
+Either directly download the data from Zenodo [here](https://doi.org/10.5281/zenodo.23158636) or compute them yourself as follows
 
 ```bash
 python preprocess_riga.py \
@@ -188,3 +191,11 @@ The script continues after a failure, so one bad file does not stop the run. The
 
 ## Disclaimer
 This README was largy generated using AI to save time. However, it was proof-read and the code is not AI generated.
+
+## Citation
+If you use this dataset, please cite it as follows
+```
+Wundram, A. M., & Baumgartner, C. (2026). Segmentation-Ready-RIGA (Version 1.0.0)
+[Data set]. Zenodo. https://doi.org/10.5281/zenodo.23158636
+```
+
