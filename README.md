@@ -190,7 +190,7 @@ The script continues after a failure, so one bad file does not stop the run. The
 - **Dataset detection by path.** Thresholding is chosen from substrings in the output path, so renaming output folders will break it.
 
 ## Disclaimer
-This README was largy generated using AI to save time. However, it was proof-read and the code is not AI generated.
+This README was generated with AI assistance. No AI was used for the code generation.
 
 ## Citation
 If you use this dataset, please cite it as follows
